@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="navigation container">
+            <div class="nav_bar" id="nav_menu">
+                <ul class="items">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Education" class="nav__link">Education</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+        </nav>
+    </header>
+    <main class="primary">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="images\resumephoto.jpg" alt="" class="pfp">
+                <div class="info">
+                    <h1 class="name">Utkarsh Solanki</h1>
+                    <p class="summary">Hi, I am Utkarsh, I'm a Computer Science Junior at NIT Bhopal</p>
+                    <dl class="attri">
+                        <dt>PHONE:</dt>
+                        <dd>+91 9691443609</dd>
+                        <dt>EMAIL</dt>
+                        <dd>utkarshsolanki2711@gmail.com</dd>
+                    </dl>
+                    <div class="socials">
+                        <a href="https://github.com/Utkarsh2754" target="_blank" class="links"><img
+                                src="images/github-fill.png"></a>
+                        <a href="https://www.linkedin.com/in/utkarsh-solanki-8187b0287/" target="_blank"
+                            class="links"><img src="images/linkedin-box-fill (1).png"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro section container">
+            <h2 class="section_title">
+                Hello,
+            </h2>
+            <p class="description">
+                I am a Computer Science student currently in my 3rd year at NIT Bhopal
+            </p>
+            <a href="data/resume.pdf" class="button button--flex"><i class="ri-download-2-line"></i>RESUME</a>
+        </section>
+
+        <section class="section container" id="Education">
+            <h2 class="section_title">Education</h2>
+            <div class="education_data">
+                <div class="education_item">
+                    <h3 class="education_subtitle text-sm">Maulana Azad National Institute of Technology, Bhopal</h3>
+                    <p class="eduaction_description text-sm">2022-2026<br>Current CGPA - 8.13</p>
+                </div>
+                <div class="education_item">
+                    <h3 class="education_subtitle text-sm">Mansarovar Public School, Bhopal</h3>
+                    <p class="eduaction_description text-sm">2019-2021</p>
+                </div>
+                <div class="education_item">
+                    <h3 class="education_subtitle text-sm">Campion School, Bhopal</h3>
+                    <p class="eduaction_description text-sm">2013-2019</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section container" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <div class="skills__container grid">
+                <div class="skills__my">
+                    <div class="icons">
+                        <img src="images/css3-fill.png" class="skills_icon">
+                    </div>
+                    <h3 class="skills_title text-lg">CSS</h3>
+                </div>
+
+
+                <div class="skills__my">
+                    <div class="icons">
+                        <img src="images/html5-fill.png" class="skills_icon">
+                    </div>
+                    <h3 class="skills_title text-lg">HTML</h3>
+                </div>
+
+                <div class="skills__my">
+                    <div class="icons">
+                        <img src="images/c.jpg" class="skills_icon">
+                    </div>
+                    <h3 class="skills_title text-lg">C</h3>
+                </div>
+
+                <div class="skills__my">
+                    <div class="icons">
+                        <img src="images/c++.jpg" class="skills_icon">
+                    </div>
+                    <h3 class="skills_title text-lg">C++</h3>
+                </div>
+
+                <div class="skills__my">
+                    <div class="icons">
+                        <img src="images/javascript-fill (1).png" class="skills_icon">
+                    </div>
+                    <h3 class="skills_title text-lg">Javascript</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact_data container">
+                <h2 class="section_title">Profiles and Contact Info</h2>
+                <div class="contact_container grid">
+                    <div class="contact_info">
+                        <dl class="contact_list">
+                            <dt>Phone:</dt>
+                            <dd>+91 9691443609</dd>
+                            <dt>Email:</dt>
+                            <dd>utkarshsolanki2711@gmail.com</dd>
+                        </dl>
+
+                        <ul class="contact_profiles">
+                            <li><a href="https://www.linkedin.com/in/utkarsh-solanki-8187b0287/">LinkedIn</a></li>
+                            <li><a href="https://github.com/Utkarsh2754">Github</a></li>
+                            <li><a href="https://leetcode.com/u/Utkarsh2711/">Leetcode</a></li>
+                            <li><a href="https://codeforces.com/profile/Utkarsh2711">Codeforces</a></li>
+                            <li><a href="https://www.geeksforgeeks.org/user/utkarshsoltmfz/">GeeksforGeeks</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="my_footer">
+                    &copy; 2024 Utkarsh Solanki Portfolio</p>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>
