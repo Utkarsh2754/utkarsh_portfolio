@@ -20,7 +20,7 @@ if (navClose) {
 const navlink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
-    const navMenu = document.getElementById('nav-menu');
+    const navMenu = document.getElementById('nav_menu');
     navMenu.classList.remove('show-menu');
 }
 
